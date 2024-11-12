@@ -1,4 +1,7 @@
 let name = localStorage.getItem('name') || ''
+if(name==''){
+    window.location.href = 'firstlogin.html';
+}
 let clickCountNow = Number(localStorage.getItem('clickCount') || 0);
 let playerHave100 = false
 if(clickCountNow>=100) {playerHave100 = true; activate100()}
