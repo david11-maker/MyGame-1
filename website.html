@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>David's webpage</title>
+</head>
+<body class="login-body">
+    <div class="header-container">
+        <!-- Bal oldali oszlop az üdvözlés, counter és upgrades számára -->
+        <div class="left-column">
+            <h1 id="welcomeP" class="welcomeH1">Welcome, Dávid!</h1>
+            <div id="resultBox">
+                <p id="counterP" class="counter">Counter text</p>
+                <p id="reached100P" class="upgrades">Upgrades text</p>
+            </div>
+        </div>
+
+        <!-- Jobb oldali oszlop a gombok számára -->
+        <div class="button-group">
+            <button id="BTN1" title="Click to make money" class="blue-button" onclick="goUp(1)">CLICK</button>
+            <button id="BTN2" title="Open the shop." class="blue-button" onclick="goDown(1)" style="visibility: visible;">SHOP</button>
+            <button id="mapBtn" title="Open the map." class="blue-button" onclick="" style="visibility: visible;">MAP</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,174 @@
+.login-body{
+    background-color: #007bffa1;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+}
+
+.red-button {
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.green-button {
+    background-color: green;
+    color: rgb(0, 0, 0);
+}
+
+.counter {
+    color: #000000;
+    font-size: 35px;
+}
+
+.upgrades {
+    color: #003b7a;
+    font-size: 20px;
+}
+
+.default-input {
+    padding: 10px;
+    font-size: 32px;
+    border: 2px solid #999;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Space between input and button */
+    width: 80%;
+    box-sizing: border-box;
+    height: 10vh;
+    background-color: #f9f9f9; /* Light background */
+    transition: 
+        border-color 0.3s ease, 
+        box-shadow 0.3s ease, 
+        transform 0.2s ease; /* Smooth transition for effects */
+}
+
+.default-input:hover {
+    border-color: #666; /* Darker border on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Adds a subtle shadow */
+}
+
+.default-input:focus {
+    border-color: #007BFF; /* Blue border on focus */
+    border-width: 5.5px; /* Increased border width on focus */
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.4); /* Glow effect */
+    outline: none; /* Removes default outline */
+    transform: scale(1.02); /* Slightly enlarges on focus */
+    
+}
+
+.great-button {
+    padding: 10px 20px;
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    background-color: #e0e0e0;
+    border: 2px solid #999;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80%;
+    height: 10vh;
+    transition: 
+        background-color 0.3s ease, 
+        color 0.3s ease, 
+        transform 0.2s ease, 
+        box-shadow 0.2s ease; /* Smooth transitions */
+}
+
+.great-button:hover {
+    background-color: #007bff82;
+    color: #000;
+    transform: scale(1.05); /* Slightly enlarges button on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow on hover */
+}
+
+.great-button:active {
+    transform: scale(0.95); /* Shrinks button a bit when clicked */
+    background-color: #007BFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Lowers the shadow for a "pressed" effect */
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+}
+
+.blue-button {
+    width: 100vh; /* Set button width to 40% */
+    height: 10vh;
+    padding: 10px 20px;
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    background-color: #e0e0e0;
+    border: 2px solid #999;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 
+        background-color 0.3s ease, 
+        color 0.3s ease, 
+        transform 0.2s ease, 
+        box-shadow 0.2s ease; /* Smooth transitions */
+}
+
+.blue-button:hover {
+    background-color: #007bff82;
+    color: #000;
+    transform: scale(1.05); /* Slightly enlarges button on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow on hover */
+}
+
+.blue-button:active {
+    transform: scale(0.95); /* Shrinks button a bit when clicked */
+    background-color: #007BFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Lowers the shadow for a "pressed" effect */
+}
+
+.right-container {
+    display: flex;
+    justify-content: right;
+}
+
+.welcomeH1 {
+    font-size: 2rem;
+    color: #333;
+    margin: 0;
+}
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between; /* Oszlopok széthúzása balra és jobbra */
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column; /* Függőleges igazítás az üdvözlés, counter és upgrades számára */
+    align-items: flex-start; /* Balra igazítva */
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column; /* A gombokat függőlegesen rendezi */
+    align-items: flex-end; /* Jobb oldalra igazítja a gombokat */
+    gap: 10px; /* Térköz a gombok között */
+    padding-right: 10px;
+}
+
+.resultBox {
+    margin-top: 10px; /* Térköz az üdvözlés és a counter között */
+}
+
+
+#resultBox {
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.counter, .upgrades {
+    text-align: left; /* Aligns text to the left */
+    margin-left: 0px; /* Adds some space from the left edge */
+}
+
